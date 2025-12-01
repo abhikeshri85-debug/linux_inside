@@ -1,0 +1,118 @@
+Summary
+Introduction
+Booting
+
+    From bootloader to kernel
+    First steps in the kernel setup code
+    Video mode initialization and transition to protected mode
+    Transition to 64-bit mode
+    Kernel decompression
+    Kernel load address randomization
+
+Initialization
+
+    First steps in the kernel
+    Early interrupts handler
+    Last preparations before the kernel entry point
+    Kernel entry point
+    Continue architecture-specific boot-time initializations
+    Architecture-specific initializations, again...
+    End of the architecture-specific initializations, almost...
+    Scheduler initialization
+    RCU initialization
+    End of initialization
+
+Interrupts
+
+    Introduction
+    Start to dive into interrupts
+    Interrupt handlers
+    Initialization of non-early interrupt gates
+    Implementation of some exception handlers
+    Handling Non-Maskable interrupts
+    Dive into external hardware interrupts
+    Initialization of external hardware interrupts structures
+    Softirq, Tasklets and Workqueues
+    Last part
+
+System calls
+
+    Introduction to system calls
+    How the Linux kernel handles a system call
+    vsyscall and vDSO
+    How the Linux kernel runs a program
+    Implementation of the open system call
+    Limits on resources in Linux
+
+Timers and time management
+
+    Introduction
+    Clocksource framework
+    The tick broadcast framework and dyntick
+    Introduction to timers
+    Clockevents framework
+    x86 related clock sources
+    Time related system calls
+
+Synchronization primitives
+
+    Introduction to spinlocks
+    Queued spinlocks
+    Semaphores
+    Mutex
+    Reader/Writer semaphores
+    SeqLock
+    RCU
+    Lockdep
+
+Memory management
+
+    Memblock
+    Fixmaps and ioremap
+    kmemcheck
+
+Cgroups
+
+    Introduction to Control Groups
+
+SMP
+Concepts
+
+    Per-CPU variables
+    Cpumasks
+    The initcall mechanism
+    Notification Chains
+
+Data Structures in the Linux Kernel
+
+    Doubly linked list
+    Radix tree
+    Bit arrays
+
+Theory
+
+    Paging
+    Elf64
+    Inline assembly
+    CPUID
+    MSR
+
+Initial ram disk
+
+    initrd
+
+Misc
+
+    Linux kernel development
+    How the kernel is compiled
+    Linkers
+    Program startup process in userspace
+    Write and Submit your first Linux kernel Patch
+    Data types in the kernel
+
+KernelStructures
+
+    IDT
+
+Useful links
+Contributors
